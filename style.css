@@ -36,14 +36,6 @@ body1{
 
    
   }
-
-  .gallery-container{
-    img{
-      display: flex;
-      width: 40%;
-      height: auto;
-    }
-  }
   
   .nav-item1{
     display: flex;                  /* Use Flexbox to align items in a row */
