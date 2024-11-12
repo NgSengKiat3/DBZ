@@ -364,6 +364,7 @@ body1 {
   user-select: none;
   text-align: center;
   transition: background-color 0.3s;
+  place-self: center;
 }
 
 .collapsible-label:hover {
