@@ -394,3 +394,7 @@ body1 {
   height: 40%;
   place-self: center;
 }
+
+main {
+  padding-top: 15%;
+}
