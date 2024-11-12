@@ -118,13 +118,6 @@ body1{
         border-radius: 10px;
         transition: transform 0.3s;
     }
-
-    /* .image-links p {
-        margin-top: 0.5px;
-        font-size: 1px;
-        color: #e4e2e0;
-        font-weight: bold;
-    } */
 }
 .logo {
  /* Logo takes up 20% of the header width */
