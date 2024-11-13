@@ -74,54 +74,97 @@
         </nav>
 
     </header>
- <main  class="gallery-container">
-    <div class="title-wrapper">
-        <h1 style="color: white;">
-            Battle Control</h1>
-    </div>
-        <h1 style="color: white;
-        text-decoration: underline;">Attacking</h1>
-        <p style="color: white;">Tap an Arts Card to attack with a skill that correspond to the card's type. Tap multiple Arts Cards successively to chain attacks together in a combo.</p>
-        <p style="color: white;">Tap the screen at close range to unleash a Tap Attack. Tap Attacks are quick and can be executed up to three times in a row.
-        </p><p style="color: white;">Tap the screen at mid range to Tackle. Tackles are quick attack that close the distance between you and the enemy.</p>    
-        <p style="color: white;">Tap the screen at long range to unleash a Tap Shot. Tap Shots are singular Ki projectiles that are effective at restricting your enemy's movements.</p>
-        <p style="color: white;">Swipe up and tap the screen at long range to unleash quick attack.Quick attack is a attack that allow to close the gap quickly between you and the enemy.</p>
-  
-        <h1 style="color: white;
-        text-decoration: underline;">Moving</h1>
-        <p style="color: white;">Slide your finger on the screen to move your character.</p>
-        <p style="color: white;">*Moving characters back at long range will reduce your Vanishing Gauge.</p>
-            
-        <p style="color: white;">When not at long range, flick up to Boost and quickly close in on an opponent.</p>
-        <p style="color: white;">When at long range, flicking up will perform a Quick Dash, which will close the distance between you and your opponent instantly. You cannot take damage from Tap Shots while Quick Dashing.</p>
-        <p style="color: white;">*Flicking up after sidestepping or attacking with certain Arts will cause you to Boost, even at long range.</p>
-    
-        <h1 style="color: white;
-        text-decoration: underline;">Vanish step</h1>
-        <p style="color: white;">Swipe left or right on the screen in time with the enemy's attack to avoid it using the Vanishing Step. 
-            Using the Vanishing Step will deplete the Vanishing Gauge, but it recovers automatically over time. 
-            Recovery is paused during certain actions, such as attacking.
-            The Vanishing Gauge will be restored to maximum value when you are hit by an enemy Arts attack or when you substitute characters.</p>
+    <main class="gallery-container">
+        <div class="title-wrapper">
+            <h1 style="color: white;">
+                Battle Control</h1>
+        </div>
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible1">
+            <label class="collapsible-label btn btn-primary" for="collapsible1">Attacking</label>
+            <div class="collapsible-content">
+                <h1>Attacking</h1>
+                <p>Tap an Arts Card to attack with a skill that correspond to the card's type. Tap multiple Arts Cards
+                    successively to chain attacks together in a combo.</p>
+                <p>Tap the screen at close range to unleash a Tap Attack. Tap Attacks are quick and can be executed up
+                    to three times in a row.</p>
+                <p>Tap the screen at mid range to Tackle. Tackles are quick attack that close the distance between you
+                    and the enemy.</p>
+                <p>Tap the screen at long range to unleash a Tap Shot. Tap Shots are singular Ki projectiles that are
+                    effective at restricting your enemy's movements.</p>
+                <p>Swipe up and tap the screen at long range to unleash quick attack.Quick attack is a attack that allow
+                    to close the gap quickly between you and the enemy.</p>
+            </div>
+        </div>
 
-        <h1 style="color: white;
-        text-decoration: underline;">Ki Charge</h1>
-        <p style="color: white;">Hold down on the screen to rapidly restore your Ki Gauge.</p>
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible2">
+            <label class="collapsible-label btn btn-primary" for="collapsible2">Moving</label>
+            <div class="collapsible-content">
+                <h1>Moving</h1>
+                <p>Slide your finger on the screen to move your character.</p>
+                <p>*Moving characters back at long range will reduce your Vanishing Gauge.</p>
+                <br>
+                <p>When not at long range, flick up to Boost and quickly close in on an opponent.</p>
+                <p>When at long range, flicking up will perform a Quick Dash, which will close the distance between you
+                    and your opponent instantly. You cannot take damage from Tap Shots while Quick Dashing.</p>
+                <p>*Flicking up after sidestepping or attacking with certain Arts will cause you to Boost, even at long
+                    range.</p>
 
-        <h1 style="color: white;
-        text-decoration: underline;">Swap character</h1>
-        <p style="color: white;">Tap an ally character icon to control them. A fixed amount of time is needed before you can switch characters again.</p>
+                <h1>Vanish step</h1>
+                <p>Swipe left or right on the screen in time with the enemy's attack to avoid it using the Vanishing
+                    Step.
+                    Using the Vanishing Step will deplete the Vanishing Gauge, but it recovers automatically over time.
+                    Recovery is paused during certain actions, such as attacking.
+                    The Vanishing Gauge will be restored to maximum value when you are hit by an enemy Arts attack or
+                    when you substitute characters.</p>
+            </div>
+        </div>
 
-        <h1 style="color: white;
-        text-decoration: underline;">Cover Change</h1>
-        <p style="color: white;">Tap your ally icon to switch then in and take damage istead when you are caught in a combo.</p>
-        <p style="color: white;">Cover Change allows you to save your character or allowing your other members who has better defences to take the damage.</p>
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible3">
+            <label class="collapsible-label btn btn-primary" for="collapsible3">Ki Charge</label>
+            <div class="collapsible-content">
+                <h1>Ki Charge</h1>
+                <p>Hold down on the screen to rapidly restore your Ki Gauge.</p>
+            </div>
+        </div>
 
-        <h1 style="color: white;
-        text-decoration: underline;">Tap action</h1>
-        <p style="color: white;">Tap action are attacks that does not cost any ki or art cards.They could be performed by tapping the screen.</p>
-        <p style="color: white;">There are two kinds of tap action:Melee(Tap attack) and Ranged(Tap Shots)</p>
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible4">
+            <label class="collapsible-label btn btn-primary" for="collapsible4">Swap character</label>
+            <div class="collapsible-content">
+                <h1>Swap character</h1>
+                <p>Tap an ally character icon to control them. A fixed amount of time is needed before you can switch
+                    characters again.</p>
+            </div>
+        </div>
+
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible5">
+            <label class="collapsible-label btn btn-primary" for="collapsible5">Cover Change</label>
+            <div class="collapsible-content">
+                <h1>Cover Change</h1>
+                <p>Tap your ally icon to switch then in and take damage istead when you are caught in a combo.</p>
+                <p>Cover Change allows you to save your character or allowing your other members who has better defences
+                    to take the damage.</p>
+            </div>
+        </div>
+
+        <div class="collapsible-container">
+            <input type="checkbox" class="collapsible-checkbox btn-check" id="collapsible6">
+            <label class="collapsible-label btn btn-primary" for="collapsible6">Tap Action</label>
+            <div class="collapsible-content">
+                <h1>Tap action</h1>
+                <p>Tap action are attacks that does not cost any ki or art cards.They could be performed by tapping the
+                    screen.</p>
+                <p>There are two kinds of tap action:Melee(Tap attack) and Ranged(Tap Shots)</p>
+            </div>
+        </div>
 
 
 
+    </main>
+</body>
 
-</main></body></html>
+</html>
